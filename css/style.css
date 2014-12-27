@@ -33,20 +33,28 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	background-color: LightGray;
+	font-family: 'Roboto', sans-serif
 }
 ol, ul {
 	list-style: none;
 }
-.content {
+.content1 {
     padding: 0 15px;
+    margin: 0 auto;
+    width: 970px;
+}
+
+.content-mid{
+	text-align: center;
+    color: #ffffff;
+    font-size: 2em;
+    margin-top: 200px;
 }
 
 .top-navigation {
     background-color: #fff;
 }
 .top-navigation > .content {
-    margin: 0 auto;
-    width: 970px;
     height: 70px;
 }
 .top-navigation .logo {
@@ -72,4 +80,13 @@ ol, ul {
 .top-navigation .links li:hover {
     cursor: pointer;
     color: #333333;
+}
+.introduction {
+    background-image: url('../images/first-background-copy.jpg');
+    background-position: 0 bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 595px;
+    background-attachment: fixed;
+    overflow: auto;
 }
