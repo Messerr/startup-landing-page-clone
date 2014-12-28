@@ -32,8 +32,9 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	background-color: LightGray;
+	background-color: #ffffff;
 	font-family: 'Roboto', sans-serif
+
 }
 ol, ul {
 	list-style: none;
@@ -87,7 +88,6 @@ ol, ul {
     background-repeat: no-repeat;
     background-size: cover;
     height: 595px;
-    background-attachment: fixed;
     overflow: auto;
 }
 .big-button {
@@ -106,5 +106,25 @@ ol, ul {
 .big-button:hover{
 	cursor: pointer;
 	background-color:#d9400e;
+}
+.cases{
+	font-family: 'Roboto', sans-serif;
+	color: #000000;
+	font-size: 2.5em
+}
 
+.cases .devices {
+    width: 33.3333333%;
+    display: inline-block;
+    height: 4em;
+    text-align: center;
+    float: left;
+
+}
+.caption{
+    font-size: 0.5em;
+    margin-top: 40px;
+}
+.secondheading{
+   margin: 1.625rem 0 3.125rem;
 }
