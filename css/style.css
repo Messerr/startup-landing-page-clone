@@ -128,3 +128,16 @@ ol, ul {
     font-size: 0.5em;
     margin-top: 40px;
 }
+
+
+
+.social .icons >li {
+width: 2.5rem;
+height: 1.5rem;
+display: inline-block;
+margin: 1.25rem 5px;
+padding: 185px 0;
+text-align: center;
+}
+
+
